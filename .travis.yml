@@ -2,10 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy: morning-tor-92132
+deploy: 
   provider: heroku
   api_key:
     secure: u1YG6i3cFMkpMePsRCORSsCX3dEX3uD6xY6anPwcaC6kCx03OGJjsSoL9SF8cdteVK2dFOJZA2AA3b+DIZke/eT4TrJSheh7528LLYgeCmO9zPKJ917U3/az8sibXeWcqrMu0FY0O2uXrU3cmhV715WBMxbdy7oe7i7A6M2XUcUHVMtakVQovzHGAtDsQbMzJlRwwsvxxC9W/UfHB8XXxtFm3FRDdkGGoeyO13R2EbcqZn28A60/hPNOFBW73sJJa4ahmZyyv3/8iQ15fil98CxtXiMegtfzySjSftGwZasj1bpq09ImLEq17JFYEgHwQkYsrwT41+OgBB7aww/BXez11bQma0olkU14F0X/Txi09PCi99iL7bi4NcxHGe8/zhvGcC6vg7lbwYuTqri79YAio/L9pzTd6YW1iYBCP9MMto1ZyJrBzEKbm4E2VGTHAmRq1PMkhuY0OQoF0If8nGDb8n+ZUY17E9ntQpmuPfkvsT54hmiKyoI7wKM9leKk7J4UeZHGAtfkdWypGJc4szcWtyjlivpBMb9eJ6s3yJHvl+AIx+tb0ZtevkeFR1VtcF1hIqgPN4RFgHClCY0ZBBEbX9ypiaauTzQgsDcPc0vqyy3seyFS1At7NeFIiqbNcOJFNq4CmGszzR4cbiQ/xCyGq3hoDnwdwMYBpI1k6dY=
-  app: blog-app-mongoose-challenge-solution
+  app: morning-tor-92132
   on:
     repo: TheGaff87/blog-app-mongoose-challenge-solution
